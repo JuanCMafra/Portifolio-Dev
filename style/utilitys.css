@@ -1,0 +1,5 @@
+.subtitle{
+  font: var(--subtitle);
+  color: var(--gray500);
+  text-align: center;
+  }

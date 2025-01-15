@@ -3,14 +3,40 @@ header{
 }
 
 #principal{
-  #profile {
-    object-fit: cover;
-    width: 112px;
-    height: 112px;
+  padding-top: 120px;
+  padding-bottom: 183px;
+  padding-inline: 163px;
+  align-items: center;
+  text-align: center;
+
+  div>span{
+    color: var(--red);
   }
-  display: flex;
-  flex-direction: column;
+  
+  h1{
+    font: var(--title-lg);
+    color: var(--gray600); 
+  }
+  p{
+    font: var(--text-sm);
+    color: var(--gray400);
+  }
 }
+#profile>img{
+  object-fit: cover;
+  width: 112px;
+  height: 112px;
+}
+#logo-pin{
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+
+
+
 
 
   

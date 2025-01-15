@@ -25,12 +25,9 @@
   --title-md: bold 24px/120%  var(--font-asap);
   --title-sm: bold 16px/120%  var(--font-asap);
 
-  --subtitle: 400 20px/120% var(--font-inconsolata);
+  --subtitle: 20px/120% var(--font-inconsolata);
 
   --text-md: 400 16px/140% var(--font-maven);
   --text-sm: 400 14px/140% var(--font-maven);
 }
 
-#subtitle{
-  
-}
