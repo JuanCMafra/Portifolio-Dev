@@ -1,0 +1,16 @@
+header{
+  background: url(../assets/img/Background_Intro.png) no-repeat top center/cover;
+}
+
+#principal{
+  #profile {
+    object-fit: cover;
+    width: 112px;
+    height: 112px;
+  }
+  display: flex;
+  flex-direction: column;
+}
+
+
+  
