@@ -57,7 +57,15 @@ header{
   }
 }
 
-
+#seta{
+  display: flex;
+  justify-content: center;
+  img {
+    height: 32px;
+    width: 32px;
+  }
+  margin-top: 200px;
+}
 
 
 
