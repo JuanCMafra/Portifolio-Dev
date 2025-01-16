@@ -1,6 +1,6 @@
 header{
   background: url(../assets/img/Background_Intro.png) no-repeat top center/cover;
- height: 750px;
+ height: 900px;
 }
 #principal{
   display: flex;
@@ -15,6 +15,7 @@ header{
   h1{
     font: var(--title-lg);
     color: var(--gray600); 
+    padding-top: 8px;
   }
   p{
     font: var(--text-sm);
@@ -33,15 +34,28 @@ header{
   #hello-w{
     padding-top: 56px;
   }
-  
-  
 }
 #logo-pin{
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-wrap: wrap;         
+  justify-content: center; 
+  align-items: center;
 }
 
+.card{
+  display: flex;
+  background-color: var(--gray300);
+  color: var(--gray500);
+  font: var(--text-md);
+  padding-block: 8px;
+  padding-inline: 16px;
+  border-radius: 40px;
+  margin-inline: 16px;
+  align-items: center;
+  img{
+    padding-right: 8px;
+  }
+}
 
 
 
