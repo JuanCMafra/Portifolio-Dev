@@ -1,14 +1,13 @@
 header{
   background: url(../assets/img/Background_Intro.png) no-repeat top center/cover;
+ height: 750px;
 }
-
 #principal{
-  padding-top: 120px;
-  padding-bottom: 183px;
-  padding-inline: 163px;
-  align-items: center;
+  display: flex;
+  justify-content: center;
   text-align: center;
-
+  align-items: center;
+ 
   div>span{
     color: var(--red);
   }
@@ -20,17 +19,29 @@ header{
   p{
     font: var(--text-sm);
     color: var(--gray400);
+    padding-block: 20px 80px;
+    width: 680px;
   }
-}
-#profile>img{
-  object-fit: cover;
-  width: 112px;
-  height: 112px;
+
+  #profile>img{
+    object-fit: cover;
+    width: 112px;
+    height: 112px;
+    margin-top: 120px;
+  }
+  
+  #hello-w{
+    padding-top: 56px;
+  }
+  
+  
 }
 #logo-pin{
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
+
 
 
 
