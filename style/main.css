@@ -1,0 +1,42 @@
+main{
+  background-color:var(--gray200) ;
+  border: white solid 1px;
+}
+
+main>div{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 72px;
+  margin-inline: 163px;
+
+  span{
+    color: var(--red);
+    font: var(--subtitle);
+  }
+
+  h1{
+    padding-block: 8px 56px;
+    font: var(--title-md);
+    color: var(--gray600);
+  }
+}
+
+#main-project{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap:24px
+}
+
+.project{
+  background-color: var(--gray300);
+  border-radius: 12px;
+  img{
+    max-height: 156px;
+    max-width: 306px;
+    padding: 12px;
+    border-radius: 8px;
+  }
+}

@@ -7,16 +7,18 @@ header{
   justify-content: center;
   text-align: center;
   align-items: center;
- 
+   
   div>span{
     color: var(--red);
+    font: var(--subtitle);
   }
-  
+
   h1{
     font: var(--title-lg);
     color: var(--gray600); 
     padding-top: 8px;
   }
+
   p{
     font: var(--text-sm);
     color: var(--gray400);
@@ -35,6 +37,9 @@ header{
     padding-top: 56px;
   }
 }
+
+
+
 #logo-pin{
   display: flex;
   flex-wrap: wrap;         
