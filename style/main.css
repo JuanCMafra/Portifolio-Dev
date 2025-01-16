@@ -1,5 +1,5 @@
 main{
-  background-color:var(--gray200) ;
+  background-color:var(--gray200);
 }
 
 main>div{
@@ -42,12 +42,13 @@ main>div{
     max-height: 100%;
     max-width: 100%;
   }
+  
   h2{
     font: var(--title-sm);
     color: var(--gray600);
-
     padding-top: 20px;
   }
+
   p{
     font: var(--text-sm);
     color: var(--gray500);
