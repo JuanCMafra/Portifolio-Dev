@@ -1,6 +1,5 @@
 main{
   background-color:var(--gray200) ;
-  border: white solid 1px;
 }
 
 main>div{
@@ -33,10 +32,25 @@ main>div{
 .project{
   background-color: var(--gray300);
   border-radius: 12px;
+  width: 320px;
+  height: 280px;
+  text-align: left;
+  padding: 12px;
+
   img{
-    max-height: 156px;
-    max-width: 306px;
-    padding: 12px;
     border-radius: 8px;
+    max-height: 100%;
+    max-width: 100%;
+  }
+  h2{
+    font: var(--title-sm);
+    color: var(--gray600);
+
+    padding-top: 20px;
+  }
+  p{
+    font: var(--text-sm);
+    color: var(--gray500);
+    padding-block: 8px 17px;
   }
 }
