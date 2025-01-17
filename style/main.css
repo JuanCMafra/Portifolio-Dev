@@ -1,5 +1,6 @@
 main{
   background-color:var(--gray200);
+  height: 917px;
 }
 
 main>div{
