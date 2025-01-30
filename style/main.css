@@ -1,6 +1,6 @@
 main{
   background-color:var(--gray200);
-  height: 917px;
+  height: 57.3rem;
 }
 
 main>div{
@@ -8,8 +8,8 @@ main>div{
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding-top: 72px;
-  margin-inline: 163px;
+  padding-top: 4.5rem;
+  margin-inline: 10.2rem;
 
   span{
     color: var(--red);
@@ -17,7 +17,7 @@ main>div{
   }
 
   h1{
-    padding-block: 8px 56px;
+    padding-block: .5rem 3.5rem;
     font: var(--title-md);
     color: var(--gray600);
   }
@@ -32,14 +32,14 @@ main>div{
 
 .project{
   background-color: var(--gray300);
-  border-radius: 12px;
-  width: 320px;
-  height: 280px;
+  border-radius: .75rem;
+  width: 20rem;
+  height: 17.5rem;
   text-align: left;
-  padding: 12px;
+  padding: .75rem;
 
   img{
-    border-radius: 8px;
+    border-radius: .5rem;
     max-height: 100%;
     max-width: 100%;
   }
@@ -47,12 +47,12 @@ main>div{
   h2{
     font: var(--title-sm);
     color: var(--gray600);
-    padding-top: 20px;
+    padding-top: 1.25rem;
   }
 
   p{
     font: var(--text-sm);
     color: var(--gray500);
-    padding-block: 8px 17px;
+    padding-block: .5rem 1rem;
   }
 }

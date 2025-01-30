@@ -13,14 +13,14 @@ p{
 }
 }
 #contatos{
-  padding-block: 128px 8px;
+  padding-block: 8rem .5rem;
   display: inline-block;
   font: var(--subtitle);
   color: var(--purple);
 }
 #sub {
 
-  padding-block: 8px 48px;
+  padding-block: .5rem 3rem;
 }
 
 #f-body{
@@ -28,23 +28,23 @@ p{
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  padding-bottom: 200px;
-  gap: 12px;
+  padding-bottom: 12.5rem;
+  gap: .75rem;
 }
 
 .contacts{
   display: flex;
-  width: 400px;
-  height: 68px;
+  width: 25rem;
+  height: 4.25rem;
   line-height: 0;
   background-color: var(--gray300);
-  border-radius: 8px;
+  border-radius: .5rem;
   justify-content: space-between;
-  padding: 20px;
+  padding: 1.25rem;
   span{
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: .75rem;
   }
 }
 

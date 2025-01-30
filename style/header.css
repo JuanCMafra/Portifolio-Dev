@@ -1,6 +1,6 @@
 header{
   background: url(../assets/img/Background_Intro.png) no-repeat top center/cover;
- height: 900px;
+ height: 56.25rem;
 }
 #principal{
   display: flex;
@@ -16,25 +16,25 @@ header{
   h1{
     font: var(--title-lg);
     color: var(--gray600); 
-    padding-top: 8px;
+    padding-top: .5rem;
   }
 
   p{
     font: var(--text-sm);
     color: var(--gray400);
-    padding-block: 20px 80px;
-    width: 680px;
+    padding-block: 1.25rem 5rem;
+    width: 42.5rem;
   }
 
   #profile>img{
     object-fit: cover;
-    width: 112px;
-    height: 112px;
-    margin-top: 120px;
+    width: 7rem;
+    height: 7rem;
+    margin-top: 7.5rem;
   }
   
   #hello-w{
-    padding-top: 56px;
+    padding-top: 3.5rem;
   }
 }
 
